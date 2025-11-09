@@ -1,2 +1,2 @@
 # FH_MAI1_CashewEngine
-Repo Following the TheCherno Game Engine Series ([YouTube Link](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT))
+Repo following TheCherno's Game Engine Series ([YouTube Link](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT))
