@@ -1,31 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheeseHeist", "CheeseHeist\CheeseHeist.vcxproj", "{244242E3-00FB-438A-A997-46EEF7D59691}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cashew", "Cashew\Cashew.vcxproj", "{40C744AB-2C69-6F81-1524-83D50165F6D1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cashew", "Cashew\Cashew.vcxproj", "{173F7390-941A-470B-BFBC-2319EA7E3918}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheeseHeist", "CheeseHeist\CheeseHeist.vcxproj", "{2F265C27-9BDB-D41C-24D0-CEF39084CB20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
+		Dist|x64 = Dist|x64
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{173F7390-941A-470B-BFBC-2319EA7E3918}.Debug|x64.ActiveCfg = Debug|x64
-		{173F7390-941A-470B-BFBC-2319EA7E3918}.Debug|x64.Build.0 = Debug|x64
-		{173F7390-941A-470B-BFBC-2319EA7E3918}.Release|x64.ActiveCfg = Release|x64
-		{173F7390-941A-470B-BFBC-2319EA7E3918}.Release|x64.Build.0 = Release|x64
-		{244242E3-00FB-438A-A997-46EEF7D59691}.Debug|x64.ActiveCfg = Debug|x64
-		{244242E3-00FB-438A-A997-46EEF7D59691}.Debug|x64.Build.0 = Debug|x64
-		{244242E3-00FB-438A-A997-46EEF7D59691}.Release|x64.ActiveCfg = Release|x64
-		{244242E3-00FB-438A-A997-46EEF7D59691}.Release|x64.Build.0 = Release|x64
+		{40C744AB-2C69-6F81-1524-83D50165F6D1}.Debug|x64.ActiveCfg = Debug|x64
+		{40C744AB-2C69-6F81-1524-83D50165F6D1}.Debug|x64.Build.0 = Debug|x64
+		{40C744AB-2C69-6F81-1524-83D50165F6D1}.Dist|x64.ActiveCfg = Dist|x64
+		{40C744AB-2C69-6F81-1524-83D50165F6D1}.Dist|x64.Build.0 = Dist|x64
+		{40C744AB-2C69-6F81-1524-83D50165F6D1}.Release|x64.ActiveCfg = Release|x64
+		{40C744AB-2C69-6F81-1524-83D50165F6D1}.Release|x64.Build.0 = Release|x64
+		{2F265C27-9BDB-D41C-24D0-CEF39084CB20}.Debug|x64.ActiveCfg = Debug|x64
+		{2F265C27-9BDB-D41C-24D0-CEF39084CB20}.Debug|x64.Build.0 = Debug|x64
+		{2F265C27-9BDB-D41C-24D0-CEF39084CB20}.Dist|x64.ActiveCfg = Dist|x64
+		{2F265C27-9BDB-D41C-24D0-CEF39084CB20}.Dist|x64.Build.0 = Dist|x64
+		{2F265C27-9BDB-D41C-24D0-CEF39084CB20}.Release|x64.ActiveCfg = Release|x64
+		{2F265C27-9BDB-D41C-24D0-CEF39084CB20}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {052147EA-32AE-4FB2-A930-C6BEA7D2ABFD}
 	EndGlobalSection
 EndGlobal
