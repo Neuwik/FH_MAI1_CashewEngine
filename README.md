@@ -4,11 +4,11 @@ Repo following TheCherno's Game Engine Series ([YouTube Link](https://www.youtub
 # Time Spent
 
 ## Ex1
-Code: 105 -> 1h 45min
+Code: 60 + 45 -> 1h 45min
 <br>
-Theory: ?
+Theory: ???
 
 ## Ex2
-Code: ?
+Code: 70 + ??? -> ???h ???min
 <br>
-Theory: ?
+Theory: ???
