@@ -1,4 +1,4 @@
-# Theory Questions#
+# Theory Questions
 
 ## Ex 1
 ### What is the difference between git and github?
