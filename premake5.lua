@@ -8,7 +8,7 @@ project "Cashew"
     location "Cashew"
     kind "SharedLib"
     language "C++"
-    targetdir ("bin" .. outputdir .. "/%{prj.name}")
+    targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
     files { "%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp" }
@@ -45,7 +45,7 @@ project "CheeseHeist"
     location "CheeseHeist"
     kind "ConsoleApp"
     language "C++"
-    targetdir ("bin" .. outputdir .. "/%{prj.name}")
+    targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
     files { "%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp" }
