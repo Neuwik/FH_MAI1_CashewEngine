@@ -27,9 +27,15 @@
     <ClInclude Include="src\Cashew\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Cashew\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Cashew\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cashew\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
