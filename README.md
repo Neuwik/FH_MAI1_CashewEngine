@@ -11,4 +11,4 @@ Theory: 15 -> 15min
 ## Ex2
 Code: 70 + 75 -> 2h 25min
 <br>
-Theory: ???
+Theory: 15 -> 15min

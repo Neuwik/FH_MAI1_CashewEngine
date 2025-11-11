@@ -44,13 +44,39 @@ GitHub is a cloud platform that hosts Git repositories online for collaboration 
 
 ## Ex 2
 ### Describe a logging system with your own words:
-???
+A logging system records events or messages to track what’s happening during execution.
+It helps monitor activity, debug errors, and analyze performance by saving logs with details like time, severity, and context.
 
 ### What is the difference between git submodules and git subtrees?
-???
+Submodules link to a repo; subtrees copy a repo’s content into yours.
+
+Git Submodules:
+- Embed a separate Git repository inside a parent repo as a reference.
+- Keeps a fixed commit of the submodule; changes in the submodule need separate commits and pushes.
+- Updates require explicit commands (git submodule update).
+- Good for keeping external dependencies isolated.
+
+Git Subtrees:
+- Merge another repo into a subdirectory of the main repo.
+- The subtree’s history is integrated into the main repo.
+- Updates can be pulled/pushed with regular Git commands (git subtree pull/push).
+- Easier to manage, no extra clone step for contributors.
 
 ### What is a build system in C++? Name 3 build systems: 
-???
+A build system in C++ is a tool that automates compiling source code, linking libraries, and producing executables or libraries. It handles dependencies and ensures that only the necessary files are rebuilt when changes occur.
+
+- CMake
+- Make
+- Visual Studio
+- Premake
+
+[Source](https://www.reddit.com/r/cpp/comments/i7825h/build_system_whats_your_favorite/)
 
 ### What is a package manager in C++? Name 3 package manager: 
-???
+A package manager in C++ is a tool that automates downloading, installing, and managing libraries (dependencies) for your C++ projects, ensuring version compatibility and simplifying updates.
+
+- Conan
+- vcpkg
+- Nix
+
+[Source](https://stackoverflow.com/questions/27866965/does-c-have-a-package-manager-like-npm-pip-gem-etc)
