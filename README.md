@@ -9,6 +9,6 @@ Code: 60 + 45 -> 1h 45min
 Theory: ???
 
 ## Ex2
-Code: 70 + 60 + ???BUG -> ???h ???min
+Code: 70 + 75 -> 2h 25min
 <br>
 Theory: ???

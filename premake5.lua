@@ -26,8 +26,10 @@ project "Cashew"
         }
 
         postbuildcommands {
-            ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/CheeseHeist")
+            ("{COPYFILE} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/CheeseHeist")
         }
+
+        buildoptions { "/utf-8" }
 
     filter "configurations:Debug"
         defines { "CASHEW_DEBUG" }
@@ -62,6 +64,8 @@ project "CheeseHeist"
         defines {
             "CASHEW_PLATFORM_WINDOWS",
         }
+        
+        buildoptions { "/utf-8" }
 
     filter "configurations:Debug"
         defines { "CASHEW_DEBUG" }
