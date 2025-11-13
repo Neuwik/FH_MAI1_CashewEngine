@@ -4,6 +4,9 @@
     <Filter Include="Cashew">
       <UniqueIdentifier>{40C744AB-2C69-6F81-1524-83D50165F6D1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Cashew\Events">
+      <UniqueIdentifier>{24CB29DF-908B-A515-59C6-EE92C545EAF1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Cashew.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Cashew\EntryPoint.h">
       <Filter>Cashew</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cashew\Events\ApplicationEvent.h">
+      <Filter>Cashew\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cashew\Events\Event.h">
+      <Filter>Cashew\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cashew\Events\KeyEvent.h">
+      <Filter>Cashew\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cashew\Events\MouseEvent.h">
+      <Filter>Cashew\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Cashew\Log.h">
       <Filter>Cashew</Filter>
