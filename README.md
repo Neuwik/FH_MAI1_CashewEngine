@@ -16,3 +16,8 @@ Theory: 15 -> 15min
 Code: 70 + 75 -> 2h 25min
 <br>
 Theory: 15 -> 15min
+
+## Ex3
+Code: 120 + ??? -> ???h ???min
+<br>
+Theory: ??? -> ???min
