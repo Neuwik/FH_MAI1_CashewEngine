@@ -1,6 +1,8 @@
 # FH_MAI1_CashewEngine
 Repo following TheCherno's Game Engine Series ([YouTube Link](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT))
 
+[Original Commit History](https://github.com/TheCherno/Hazel/commits/master/?after=1feb70572fa87fa1c4ba784a2cfeada5b4a500db+279)
+
 # Setup
 Download .exe via windows zip from https://github.com/premake/premake-core/releases -> Assets
 Copy the .exe to .\vendor\bin\premake\
@@ -21,3 +23,9 @@ Theory: 15 -> 15min
 Code: 120 + ??? -> ???h ???min
 <br>
 Theory: ??? -> ???min
+<br>
+TheCherno Commmit: 
+- [Added event system + basic test.](https://github.com/TheCherno/Hazel/commit/34df41651fe88041540f20df845a70642359dc17)
+- [Added precompiled headers.](https://github.com/TheCherno/Hazel/commit/f3c310ee77b4b94914b3dd2d2b6ad192a9e037a9)
+- [Added pch include to Events.h to fix compile errors.
+](https://github.com/TheCherno/Hazel/commit/cfd270f5d535e55c3bfd6735cda391ec25aa6fc2)
