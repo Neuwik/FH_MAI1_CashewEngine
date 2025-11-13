@@ -2,8 +2,6 @@
 
 #include "Cashew/Events/Event.h"
 
-#include <sstream>
-
 namespace Cashew
 {
 	class CASHEW_API WindowResizeEvent : public Event

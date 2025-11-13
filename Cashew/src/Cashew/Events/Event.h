@@ -3,9 +3,6 @@
 #include "precompileheaders.h"
 #include "Cashew/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Cashew
 {
 	enum class EventType
@@ -74,8 +71,14 @@ namespace Cashew
 		Event& m_Event;
 	};
 
+	// BUG FIX Video Comment by "@jishanahamed8592" (https://www.youtube.com/watch?v=xnopUoZbMEk)
+	/*
 	inline std::ostream& operator<<(std::ostream& os, const Event& e)
 	{
 		return os << e.ToString();
+	}
+	*/
+	inline std::string format_as(const Event& e) {
+		return e.ToString();
 	}
 }

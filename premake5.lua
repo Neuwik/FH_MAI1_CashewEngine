@@ -11,6 +11,9 @@ project "Cashew"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "precompileheaders.h"
+    pchsource "Cashew/src/precompileheaders.cpp"
+
     files { "%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp" }
 
     includedirs { "%{prj.name}/src", "%{prj.name}/vendor/spdlog/include" }
