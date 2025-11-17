@@ -20,7 +20,7 @@ Code: 70 + 75 -> 2h 25min
 Theory: 15 -> 15min
 
 ## Ex3
-Code: 120 + ??? -> ???h ???min
+Code: 120 + 10 -> 2h 10min
 <br>
 Theory: ??? -> ???min
 <br>
