@@ -7,7 +7,7 @@ namespace Cashew
 {
 	Application::Application()
 	{
-
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
 	Application::~Application()
@@ -17,19 +17,9 @@ namespace Cashew
 
 	void Application::Run()
 	{
-		WindowResizeEvent e(1280, 720);
-		if (e.IsInCategory(EventCategoryApplication))
+		while (m_Running)
 		{
-			CASHEW_TRACE(e);
-		}
-		if (e.IsInCategory(EventCategoryInput))
-		{
-			CASHEW_TRACE(e);
-		}
-
-		while (true)
-		{
-
+			m_Window->OnUpdate();
 		}
 	}
 }
