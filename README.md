@@ -31,7 +31,7 @@ TheCherno Commmit:
 ](https://github.com/TheCherno/Hazel/commit/cfd270f5d535e55c3bfd6735cda391ec25aa6fc2)
 
 ## Ex4
-Code: ??? -> 2h 10min
+Code: 50 + ??? -> ???h ???min
 <br>
 Theory: ??? -> ???min
 <br>
