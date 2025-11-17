@@ -80,3 +80,27 @@ A package manager in C++ is a tool that automates downloading, installing, and m
 - Nix
 
 [Source](https://stackoverflow.com/questions/27866965/does-c-have-a-package-manager-like-npm-pip-gem-etc)
+
+## Ex 3
+### What is the difference between a dynamic linked library and a static library?
+???
+
+### Describe a logging system with your own words:
+???
+
+### What is a Design Pattern?
+???
+
+### Name and describe 2 Design Patterns (except façade or adapter):
+???
+
+## Ex 4
+
+### What is a precompiled header? Name pros and cons:
+???
+
+### Describe the layer of abstraction with your own words:
+???
+
+### Name the SOLID principles and describe them briefly:
+???
