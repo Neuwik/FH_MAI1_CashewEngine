@@ -33,7 +33,7 @@ TheCherno Commmit:
 ## Ex4
 Code: 50 + 30 -> 1h 20min
 <br>
-Theory: ??? -> ???min
+Theory: 15 -> 15min
 <br>
 TheCherno Commmit: 
 - [Added Window class and GLFW.](https://github.com/TheCherno/Hazel/commit/6815f07cd23eb5cd55cfe6fccaec5aefdc8169e8)
