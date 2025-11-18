@@ -80,3 +80,65 @@ A package manager in C++ is a tool that automates downloading, installing, and m
 - Nix
 
 [Source](https://stackoverflow.com/questions/27866965/does-c-have-a-package-manager-like-npm-pip-gem-etc)
+
+## Ex 3
+### What is the difference between a dynamic linked library and a static library?
+The primary difference between static linking and dynamic linking is when this address resolution is done.
+With static linking, it's done when you compile your program. 
+With dynamic linking, it happens when you run your program.
+Since dynamic linking defers the final linking step to the time when you actually run your program, this means your program and your program's libraries can be shipped separately.
+Static linking means that the code for all routines called by your program becomes part of the executable file.
+
+### Describe a logging system with your own words:
+A logging system records events or messages to track what’s happening during execution.
+It helps monitor activity, debug errors, and analyze performance by saving logs with details like time, severity, and context.
+
+### What is a Design Pattern?
+A design pattern is a general, reusable solution to a commonly occurring problem in software design.
+It acts as a blueprint or template for structuring code to solve specific design challenges, but it is not a finished piece of code itself.
+Patterns help improve code readability, maintainability, and efficiency, and they provide a common language for developers to communicate about solutions.
+
+### Name and describe 2 Design Patterns (except façade or adapter):
+#### Singleton
+Ensures only one instance of a class exists and provides a global access point to it.
+Useful for shared resources like loggers, config managers, or connection pools.
+
+#### Publisher–Subscriber
+Decouples senders (publishers) from receivers (subscribers).
+Publishers emit events and subscribers register to be notified when those events occur.
+Used in flexible, event-driven systems like games.
+
+## Ex 4
+
+### What is a precompiled header? Name pros and cons:
+A cached, already-compiled bundle of header files (e.g., <iostream>, project-wide headers) that the compiler loads instead of re-parsing them every build. Used mainly in C/C++ to speed up compilation.
+
+Pros:
+- Much faster compile times (especially in large projects).
+- Less redundant parsing of the same headers across translation units.
+- Encourages consistent shared includes across files.
+
+Cons:
+- Can hide dependency issues (files may compile only because the PCH included something).
+- Fragile: small changes in the PCH force full rebuild, costing time.
+- Harder to manage in complex builds or when build systems/platforms differ.
+
+### Describe the layer of abstraction with your own words:
+A layer of abstraction is a way of hiding complexity by exposing only what you need to use while shielding you from the details of how it works internally.
+Each layer provides a simpler interface built on top of more complex mechanisms so you can focus on what something does, not how it does it.
+
+### Name the SOLID principles and describe them briefly:
+S – Single Responsibility Principle
+A class should have one reason to change — do one job only.
+
+O – Open/Closed Principle
+Software should be open for extension but closed for modification — add behavior without altering existing code.
+
+L – Liskov Substitution Principle
+Subclasses must be replaceable for their base classes without breaking correctness.
+
+I – Interface Segregation Principle
+Prefer small, specific interfaces over one large, general one — clients shouldn’t depend on methods they don’t use.
+
+D – Dependency Inversion Principle
+Depend on abstractions, not concrete implementations — high-level code shouldn’t depend on low-level details.

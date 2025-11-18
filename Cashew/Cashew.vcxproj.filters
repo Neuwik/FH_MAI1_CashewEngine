@@ -35,6 +35,8 @@
       <Filter>Cashew</Filter>
     </ClInclude>
     <ClInclude Include="src\precompileheaders.h" />
+    <ClInclude Include="src\Cashew\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Cashew\Application.cpp">
@@ -44,5 +46,6 @@
       <Filter>Cashew</Filter>
     </ClCompile>
     <ClCompile Include="src\precompileheaders.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>
