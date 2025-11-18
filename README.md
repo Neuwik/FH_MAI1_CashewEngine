@@ -22,7 +22,7 @@ Theory: 15 -> 15min
 ## Ex3
 Code: 120 + 10 -> 2h 10min
 <br>
-Theory: ??? -> ???min
+Theory: 15 -> 15min
 <br>
 TheCherno Commmit: 
 - [Added event system + basic test.](https://github.com/TheCherno/Hazel/commit/34df41651fe88041540f20df845a70642359dc17)

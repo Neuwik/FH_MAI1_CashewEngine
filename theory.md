@@ -83,16 +83,30 @@ A package manager in C++ is a tool that automates downloading, installing, and m
 
 ## Ex 3
 ### What is the difference between a dynamic linked library and a static library?
-???
+The primary difference between static linking and dynamic linking is when this address resolution is done.
+With static linking, it's done when you compile your program. 
+With dynamic linking, it happens when you run your program.
+Since dynamic linking defers the final linking step to the time when you actually run your program, this means your program and your program's libraries can be shipped separately.
+Static linking means that the code for all routines called by your program becomes part of the executable file.
 
 ### Describe a logging system with your own words:
-???
+A logging system records events or messages to track what’s happening during execution.
+It helps monitor activity, debug errors, and analyze performance by saving logs with details like time, severity, and context.
 
 ### What is a Design Pattern?
-???
+A design pattern is a general, reusable solution to a commonly occurring problem in software design.
+It acts as a blueprint or template for structuring code to solve specific design challenges, but it is not a finished piece of code itself.
+Patterns help improve code readability, maintainability, and efficiency, and they provide a common language for developers to communicate about solutions.
 
 ### Name and describe 2 Design Patterns (except façade or adapter):
-???
+#### Singleton
+Ensures only one instance of a class exists and provides a global access point to it.
+Useful for shared resources like loggers, config managers, or connection pools.
+
+#### Publisher–Subscriber
+Decouples senders (publishers) from receivers (subscribers).
+Publishers emit events and subscribers register to be notified when those events occur.
+Used in flexible, event-driven systems like games.
 
 ## Ex 4
 
